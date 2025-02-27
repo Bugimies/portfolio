@@ -1,0 +1,133 @@
+/*Yhteinen tyyli kaikille sivuille*/
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #0c9ef3; /* Vaihda tämä haluamaasi taustaväriin */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0c9ef3;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*Logo*/
+.logo {
+    height: 100px;
+	width: auto;
+	display: block; /*pitäisi varmistaa että kuva näkyy tämä on lisäsystä*/
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+/*Teksti alue*/
+.content {
+	
+    padding: 20px;
+    background-color: lightblue;
+    line-height: 1.2;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+	}
+
+h1 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+/*Teskti alueen otsikko*/
+h2 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+/*Teksti alueen leipäteksti*/
+h3, ul {
+    font-size: 0.7em;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*Oma kuva ota_yhteyttä */	
+.Profile_image {
+	width: 80px;
+	height: 100px;	
+	display: block;
+	margin: 10px;
+	margin-bottom: 10%;
+}
+/* AI kuva itestäni, BIO */
+.ai_image {
+	width: auto;
+	height: 100px;
+	display: block;
+}
+
+
+/*pitäisi auttaa luettavuuteen*/
+p { 
+	margin-bottom: 10px;
+}
+	/*TESTI eri näyttö kokoluokille*/
+/*Pienet näytöt, oma kännyynäyttö 384px x653px pystyssä ja 757px x256px*/
+@media only screen and (max-width: 440px) {
+    .content {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    h1, h2, h3 {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 1em;
+    }
+}
+
+/*Keskikokoiset näytöt*/
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .content {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    h1, h2, h3 {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 0.8em;
+    }
+}
+
+/*Suuret näytöt*/
+@media only screen and (min-width: 1025px) {
+    .content {
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+
+    h1, h2, h3 {
+     font-size: 0.8em;
+        padding-left: 10px; 
+        padding-right: 10px;   
+    }
+}
