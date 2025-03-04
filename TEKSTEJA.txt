@@ -1,0 +1,51 @@
+
+/*BIO.html*/
+
+<h2>BIO</h2>
+        <h3> Hei,<p> Olen Kalle Kyröhonka,yksi niistä ihmisistä, joka on vaihtanut alaa. 
+            Ehdin jo vaihtaa turvallisuusalalta ICT-asiantuntijaksi. Kun maailman tilanne muutti työtilanteeni, päätin ottaa uuden suunnan ja hypätä digitaaliseen maailmaan.</p>
+
+<p>Nyt opiskelen Haaga-Heliassa monimuoto-opinnoissa Tietojenkäsittely Tradenomiksi. Uuden oppiminen on kuin investointi – aina kannattaa.
+Ennen tätä opiskelin JAMK avoimessa AMK 30op verran niin hallinnollisesta kuin teknillisestä tietoturvasta.</p>
+
+<p>Edellisessä työpaikassani opin hallitsemaan laajoja häiriötilanteita Major Incident Ownerina (MIO) ja ylläpitämään kriittisen palvelutuotannon tilannekuvaa, 
+    OP:n tilannekuvajohtajana. 
+    ICT-häiriötilanteisiin reagoiminen oli arkipäivääni, ja tietoa sain monikanavaisesti mm. Dynatracen, ServiceNow’n ja muiden järjestelmien kautta. 
+    Häiriöviestinnän ja ICT-tilannekuvan ylläpidon ohella tuin kehitystiimejä omalta osaltani varmistaen palveluiden toimivuuden muutosten jälkeen. 
+    Dokumentoin myös Confluencessa ja kehitin ohjeistuksia työn parantamiseksi. ITIL-prosessit ja ITSM-työkalut (ServiceNow, Jira) ovat minulle tuttuja. </p>
+
+<p>Yksityisellä turvallisuusalalla sain kokemusta erilaisista tilanteista ja asiakkuuksista, kuten suurlähetystöistä, metroista ja aulapalveluista. 
+    Työskentelin pitkään Helsingin Messukeskuksessa, jossa työnkuvaani kuului mm. henkilösuojausta ja järjestyksenvalvontaa. 
+    Toimin tämän kaiken lisäksi 8 vuotta HR hallinnollisessa työssä, 
+    neuvotellen laajoja kokonaisuuksia sekä sisäisiä auditointeja tehden. Kuuluin myös yrityksen Euroopan laajuiseen asiantuntijaryhmään. Suomen delegaatioon.</p>
+
+<p>Olen kouluttautunut kurssipohjaista mm. seuraaviin:</p>
+Ensiapu<br>
+Neuvottelutaito<br>
+Esimiestaito<br>
+Johtamistaito<br>
+Ilmaisutaito<p>
+    Lisäksi hallitsen MySQL-perusteet ja osaan hyödyntää AI:ta koodauksen apuna sekä muissa avustavissa tehtävissä. Ajattelutapani on analyyttinen ja 
+    ongelmanratkaisukeskeinen, ja pystyn hahmottamaan laajoja kokonaisuuksia. Pyrin aina huomioimaan kokonaisturvallisuuden.
+Vapaa-ajallani tykkään huristella moottoripyörällä (sään salliessa 😊) ja käydä Bujinkan treeneissä (Bujinkan Shinden dojo, Helsinki), joka on perinteinen japanilainen taistelulaji. 
+Harrastuksenani on myös teknologia, 
+ja olen aktiivisesti mukana HelSec ry:ssä, jossa tietoturva-ammattilaiset ja -harrastajat käsittelevät alan uusimpia trendejä ja käänteitä.
+        </h3>
+
+		  
+/*/INDEX.html*/
+		  <h1>Tervetuloa Portfolioni Sivustolle</h1>
+         <h2>Kalle Kyröhonka - Tulevaisuuden ICT-ammattilainen</h2>
+        <h3>
+        Moi,<br>
+        Olen Kalle Kyröhonka, tietojenkäsittelyn tradenomiopiskelija Haaga-Heliasta. 
+        Opiskelen monimuotolinjalla, mikä antaa minulle mahdollisuuden yhdistää työ ja opinnot joustavasti.
+        Olen kartuttanut arvokasta työkokemusta ICT-häiriönhallinnasta kriittisessä ICT-infrassa sekä 19vuotta 
+        yksityisellä turvallisuusalalla, jossa sain toimia hallinnollisissakin työtehtävissä.
+        Olen syventänyt osaamistani, erityisesti tietoturvallisuuden parissa.
+        Opiskelin ennen tutkinto-opiskeluja JAMK avoimessa AMK:ssa 30op:n verran. 
+        Opintojeni erikoistuminen on ICT infra ja pilvipalvelut.
+        Sivustolta pitäsi löytyä sinulle tarpeelliset tiedot minusta.
+        Mikäli haluat jostain osa-alueesta lisätietoja laita viestiä niin keskustellaan lisää.<br>
+        Tervetuloa tutustumaan sivustooni!<br>    
+        </h3>        		  

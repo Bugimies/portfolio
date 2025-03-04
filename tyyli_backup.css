@@ -45,59 +45,55 @@ nav a {
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
-	}
+	
+}
 
 h1 {
     font-size: 1em;
     font-weight: bold;
     text-align: center;
-}
+    
 /*Teskti alueen otsikko*/
 h2 {
     font-size: 1em;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 /*Teksti alueen leipäteksti*/
-p, ul {
+h3 {
     font-size: 0.7em;
     font-weight: normal;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
 }
-
 /*Oma kuva ota_yhteyttä */	
 .Profile_image {
-	width: 80px;
+	width: 100px;
 	height: 100px;	
 	display: block;
 	margin: 10px;
 	margin-bottom: 10%;
 }
 /* AI kuva itestäni, BIO */
-.ai_image {
+.ai_kuva {
 	width: auto;
-	height: 100px;
+	height: 5px;
 	display: block;
 }
 
-
-/*pitäisi auttaa luettavuuteen*/
-p { 
-	margin-bottom: 10px;
 }
-	/*TESTI eri näyttö kokoluokille*/
+/*TESTI eri näyttö kokoluokille*/
 /*Pienet näytöt, oma kännyynäyttö 384px x653px pystyssä ja 757px x256px*/
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 480px) {
     .content {
         margin-left: 5%;
         margin-right: 5%;
     }
 
-    h1, h2, h3, p {
+    h1, h2, h3 {
         margin-left: 0;
         margin-right: 0;
         font-size: 1em;
@@ -107,27 +103,32 @@ p {
 /*Keskikokoiset näytöt*/
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .content {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
-    h1, h2, h3, p {
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: 0.8em;
+    h1, h2, h3 {
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 1.2em;
     }
 }
 
 /*Suuret näytöt*/
 @media only screen and (min-width: 1025px) {
     .content {
-        margin-left: 20%;
+        margin-left: 40%;
         margin-right: 10%;
     }
 
-    h1, h2, h3, p  {
+    h1, h2, h3 {
      font-size: 0.8em;
-        padding-left: 10px; 
-        padding-right: 10px;   
+        padding-left: 10px; /* Lisätty sisennys suurilla näytöillä */
+        padding-right: 10px; /* Lisätty sisennys suurilla näytöillä */   
     }
+}
+
+/*pitäisi auttaa luettavuuteen*/
+p { 
+	margin-bottom: 10px;
 }
